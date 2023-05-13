@@ -1,0 +1,42 @@
+{
+  "name": "local-weather-app-reactjs",
+  "version": "1.0.0",
+  "description": "A front-end web app that uses HTML5 Geolocation and the OpenWeatherMap API to get the user's current weather and forecast. Built with React.js.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/local-weather-app-reactjs.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/local-weather-app-reactjs/issues"
+  },
+  "homepage": "https://autumnchris.github.io/local-weather-app-reactjs",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.27.0",
+    "normalize.css": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "dotenv-webpack": "^7.0.3",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.0.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.42.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
